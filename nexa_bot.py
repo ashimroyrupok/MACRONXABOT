@@ -64,7 +64,7 @@ def rbtn(text, style=None):
 
 
 # --- CONFIGURATION ---
-TOKEN = "8841412223:AAG1aDh2g7iGOgU9Osq10GyMjItpN6ubBHU"
+TOKEN = "8792798190:AAGFnF4EHWkIW1KBuExy4wHTYQUrwjHKm-E"
 ADMIN_ID = 6058876211 # আপনার এডমিন আইডি দিন
 BASE_URL = "http://185.190.142.81"
 NEXA_API_KEY = "nxa_90f14814e14e9ba5cf7542f5c1b0253aacdde807"
