@@ -65,7 +65,7 @@ def rbtn(text, style=None):
 
 # --- CONFIGURATION ---
 TOKEN = "8841412223:AAHEkuDYhRi-U9GEkitNEmJW-eWb6CRCurs"
-ADMIN_ID = 6058876211 # আপনার এডমিন আইডি দিন
+ADMIN_ID = 5474672519 # আপনার এডমিন আইডি দিন
 BASE_URL = "http://185.190.142.81"
 NEXA_API_KEY = "nxa_90f14814e14e9ba5cf7542f5c1b0253aacdde807"
 
@@ -998,7 +998,7 @@ def show_leaderboard(chat_id, message_id=None):
             mention = f"<a href='tg://user?id={uid}'>{name}</a>"
             text += f"{stylish_nums[idx]}  {mention}  —  {count} OTP\n"
             text += "━━━━━━━━━━━━━━━\n"
-    text += "\n🚀 POWERED BY DXA UNIVERSE\n━━━━━━━━━━━━━━━"
+    text += "\n🚀 POWERED BY MACROXDYNAMO\n━━━━━━━━━━━━━━━"
     safe_edit(chat_id, text, get_leaderboard_menu(), message_id)
 
 def show_admin_panel(chat_id, message_id=None):
