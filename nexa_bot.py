@@ -70,7 +70,7 @@ BASE_URL = "http://185.190.142.81"
 NEXA_API_KEY = "nxa_90f14814e14e9ba5cf7542f5c1b0253aacdde807"
 
 # ১২ জিবি র‍্যামের সার্ভারে ১০০০+ ইউজারের লোড নিতে থ্রেড লিমিট ১০০০ করা হলো
-bot = telebot.TeleBot(TOKEN, threaded=True, num_threads=1000)
+bot = telebot.TeleBot(TOKEN, threaded=True, num_threads=4)
 
 # API রিকোয়েস্ট ফাস্ট করতে এবং জ্যাম এড়াতে গ্লোবাল সেশন (১০০০ কানেকশন একসাথে হ্যান্ডেল করবে)
 req_session = requests.Session()
